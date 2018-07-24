@@ -7,11 +7,10 @@
 
 import scrapy
 
-class GanjiItem(scrapy.Item):
+class YelpItem(scrapy.Item):
     # define the fields for your item here like:
-    title = scrapy.Field()    
     url = scrapy.Field()
-    state = scrapy.Field()
-    date = scrapy.Field()
+    title = scrapy.Field()
+    region = scrapy.Field()
+    address = scrapy.Field()
     phone = scrapy.Field()
-    
