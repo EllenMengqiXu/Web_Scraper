@@ -12,7 +12,7 @@ Steps:
 * scrapy startproject "name",
 * scrapy genspider "name" domain,
 * go to scrapy shell --> fetch webiste url,
-* use css to select every class unit that you want to crawl.
-* write in python spiders and items.
-* after finish coding, go to terminal and put in: scrapy crawl spidername -o XXX.csv.
+* use css to select every class unit that you want to crawl,
+* write in python spiders and items,
+* after finish coding, go to terminal and put in: scrapy crawl spidername -o XXX.csv,
 * your export file should be saved in spiders file named xxx.csv.
