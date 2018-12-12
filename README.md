@@ -16,3 +16,7 @@ Steps:
 * write in python spiders and items (chenge user agent in setting.py if needed),
 * after finish coding, go to terminal, make your path in spiders folder and put in: scrapy crawl spidername -o XXX.csv,
 * your export file should be saved in spiders folder named xxx.csv.
+
+Douban
+
+Explaining to be continued...
