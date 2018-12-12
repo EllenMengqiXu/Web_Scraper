@@ -8,11 +8,11 @@ In this project, I use scrapy framework to extract title, url, address, Zipcode 
 
 Steps:
 
-* go to terminal and write bash as "source activate ScrapyEnvironment",
+* go to terminal and write bash as "source activate ScrapyEnvironment"(mac) OR go to CMD find users-->exu-->env-->script and put in activate(windows),
 * scrapy startproject "name",
 * scrapy genspider "name" domain,
-* go to scrapy shell --> fetch webiste url,
-* use css to select every class unit that you want to crawl,
-* write in python spiders and items,
+* go to scrapy shell --> fetch webiste url (make sure crawl(200)),
+* use css/xpath to select every class unit that you want to crawl,(Reference: https://www.w3schools.com/cssref/css_selectors.asp)
+* write in python spiders and items (chenge user agent in setting.py if needed),
 * after finish coding, go to terminal and put in: scrapy crawl spidername -o XXX.csv,
 * your export file should be saved in spiders file named xxx.csv.
