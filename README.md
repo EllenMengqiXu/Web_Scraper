@@ -6,6 +6,13 @@ Use Scrapy framework to crawl information from advertising website.
 
 In this project, I use scrapy framework to extract title, url, address, Zipcode and phone number from yelp, 168ganji and other Chinese restauarant advertising website.
 
+Prerequisites:
+
+* Python - programming language
+* Sublime - code editor
+* scrapy 
+* scrapy virtual environment
+
 Steps:
 
 * go to terminal and write bash as "source activate ScrapyEnvironment"(mac) OR go to CMD find users-->exu-->env-->script and put in activate(windows),
