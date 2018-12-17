@@ -37,6 +37,10 @@ fetch('test.com/example')
 response.css('.item::test').extract_first().strip()
 ```
 * write in python spiders and items (chenge user agent in setting.py if needed),
+```
+# Crawl responsibly by identifying yourself (and your website) on the user-agent
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+```
 * after finish coding, go to terminal, make your path in spiders folder and put in: scrapy crawl spidername -o XXX.csv,
 ```
 scrapy crawl ts -o firstbach.csv
