@@ -1,7 +1,7 @@
 SCRAPY FRAMEWORK
 ===
 
-Use Scrapy framework to crawl information from advertising website.
+Use Scrapy framework to crawl information from website.
 ---
 
 In this project, I use scrapy framework to extract title, url, address, Zipcode and phone number from yelp, 168ganji and other Chinese restauarant advertising website.
