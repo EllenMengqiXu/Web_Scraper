@@ -4,7 +4,10 @@ SCRAPY FRAMEWORK
 Use Scrapy framework to crawl information from website.
 ---
 
-In this project, I use scrapy framework to extract title, url, address, Zipcode and phone number from yelp, 168ganji and other Chinese restauarant advertising website.
+In this project, I use scrapy framework to 
+
+1. extract title, url, address, Zipcode and phone number from yelp, 168ganji and other Chinese restauarant advertising website.
+2. extract tile, url, review, director and so on from douban.
 
 Prerequisites:
 
